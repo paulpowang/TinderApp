@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		DAD08190217B00EA00B8814D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD0818F217B00EA00B8814D /* AppDelegate.swift */; };
-		DAD08192217B00EA00B8814D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD08191217B00EA00B8814D /* ViewController.swift */; };
 		DAD08195217B00EA00B8814D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD08193217B00EA00B8814D /* Main.storyboard */; };
 		DAD08197217B00EB00B8814D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD08196217B00EB00B8814D /* Assets.xcassets */; };
 		DAD0819A217B00EB00B8814D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD08198217B00EB00B8814D /* LaunchScreen.storyboard */; };
 		DAD081A5217B00EB00B8814D /* TinderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD081A4217B00EB00B8814D /* TinderAppTests.swift */; };
 		DAD081B0217B00EB00B8814D /* TinderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD081AF217B00EB00B8814D /* TinderAppUITests.swift */; };
 		DAD081BE217B021800B8814D /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD081BD217B021800B8814D /* CardsViewController.swift */; };
+		DAD081C0217B101100B8814D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD081BF217B101100B8814D /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		DAD0818C217B00EA00B8814D /* TinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD0818F217B00EA00B8814D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAD08191217B00EA00B8814D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAD08194217B00EA00B8814D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAD08196217B00EB00B8814D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAD08199217B00EB00B8814D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		DAD081AF217B00EB00B8814D /* TinderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderAppUITests.swift; sourceTree = "<group>"; };
 		DAD081B1217B00EB00B8814D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAD081BD217B021800B8814D /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		DAD081BF217B101100B8814D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				DAD0818F217B00EA00B8814D /* AppDelegate.swift */,
 				DAD081BD217B021800B8814D /* CardsViewController.swift */,
-				DAD08191217B00EA00B8814D /* ViewController.swift */,
 				DAD08193217B00EA00B8814D /* Main.storyboard */,
 				DAD08196217B00EB00B8814D /* Assets.xcassets */,
 				DAD08198217B00EB00B8814D /* LaunchScreen.storyboard */,
 				DAD0819B217B00EB00B8814D /* Info.plist */,
+				DAD081BF217B101100B8814D /* ProfileViewController.swift */,
 			);
 			path = TinderApp;
 			sourceTree = "<group>";
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAD08192217B00EA00B8814D /* ViewController.swift in Sources */,
 				DAD08190217B00EA00B8814D /* AppDelegate.swift in Sources */,
+				DAD081C0217B101100B8814D /* ProfileViewController.swift in Sources */,
 				DAD081BE217B021800B8814D /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
